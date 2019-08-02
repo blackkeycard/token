@@ -118,9 +118,9 @@ contract BKCCoin is StandardToken {
         ) {
         balances[msg.sender] = 200000000000000000000000000;               // Give the creator all initial tokens (100000 for example)
         totalSupply = 200000000000000000000000000;                        // Update total supply (100000 for example)
-        name = "THC COIN";                                   // Set the name for display purposes
+        name = "BKC COIN";                                   // Set the name for display purposes
         decimals = 18;                            // Amount of decimals for display purposes
-        symbol = "THC";                               // Set the symbol for display purposes
+        symbol = "BKC";                               // Set the symbol for display purposes
     }
 
     /* Approves and then calls the receiving contract */
